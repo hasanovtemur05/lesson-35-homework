@@ -1,0 +1,87 @@
+.hope{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__desc{
+        font-size: 12px;
+        padding: 15px 0px 80px 0px;
+    }
+    &__card{
+        width: 100%;
+        background-color: #9AA8B1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 50px 30px;
+        &__title{
+            color: white;
+        }
+        &__desc{
+            color: white;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    @media (min-width:700px){
+        .hope{
+            &__title{
+                font-size: 34px;
+            }
+            &__card{
+                gap: 30px;
+                padding: 80px 30px;
+                &__title{
+                    color: white;
+                }
+                &__desc{
+                    color: white;
+                    font-size: 14px;
+                    text-align: center;
+                }
+            } 
+    }
+
+    }
+    @media (min-width:920px){
+        .hope{
+            &__card{
+                gap: 30px;
+                padding: 100px 30px;
+                &__title{
+                    font-size: 34px;
+                    color: white;
+                }
+                &__desc{
+                    color: white;
+                    font-size: 14px;
+                    text-align: center;
+                }
+            } 
+    }
+    
+    }
+    @media (min-width:1200px){
+        .hope{
+            &__card{
+                gap: 30px;
+                padding: 120px 30px;
+                &__title{
+                    font-size: 43px;
+                    color: white;
+                }
+                &__desc{
+                    color: white;
+                    font-size: 16px;
+                    text-align: center;
+                }
+            } 
+    }
+    
+    }
+    
+}
+
+

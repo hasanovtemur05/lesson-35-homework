@@ -1,0 +1,41 @@
+.header{
+    width: 100%;
+    background-color: white;
+    height: 75px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    .navbar{
+        width: 85%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    &__list{
+        display: flex;
+        gap: 25px;
+        display: none;
+    }
+    &__btn{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        img{
+            width: 25px;
+            height: 25px;
+        }
+    }
+}
+@media (min-width:650px){
+    .header{
+        &__list{
+            display: flex;
+            
+        }
+        &__btn{
+            display: none;
+        }
+    }
+}
