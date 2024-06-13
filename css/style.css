@@ -501,3 +501,118 @@ button {
     text-align: center;
   }
 }
+
+.footer {
+  margin-top: 80px;
+}
+.footer .footer__bottom {
+  width: 100%;
+}
+.footer__img {
+  display: flex;
+  justify-content: end;
+}
+.footer__about {
+  margin: 15px 0px;
+  display: grid;
+}
+.footer__list {
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .box p {
+  font-size: 14px;
+  color: #A0A0A0;
+  text-align: center;
+}
+.footer .box hr {
+  width: 300px;
+}
+
+@media (min-width: 650px) {
+  .footer__about {
+    margin: 25px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  }
+  .footer__list {
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+  }
+  .footer .box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footer .box p {
+    font-size: 14px;
+    color: #A0A0A0;
+    text-align: start;
+    padding: 15px 0px;
+  }
+}
+@media (min-width: 850px) {
+  .footer__about {
+    width: 70%;
+    margin: 25px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  }
+  .footer__list {
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+  }
+  .footer .box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footer .box p {
+    font-size: 14px;
+    color: #A0A0A0;
+    text-align: start;
+    padding: 15px 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer__about {
+    width: 50%;
+    margin: 25px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  }
+  .footer__list {
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+  }
+  .footer .box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footer .box p {
+    font-size: 14px;
+    color: #A0A0A0;
+    text-align: start;
+    padding: 15px 0px;
+  }
+}
